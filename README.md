@@ -91,7 +91,7 @@ Text preprocessing (removing stopwords, cleaning) improved performance.
   **Matplotlib**  
 
 
-## 📌 How to Use  
+##  How to Use  
 
 Upload `IMDB Dataset.csv.zip` in Google Colab.
 
