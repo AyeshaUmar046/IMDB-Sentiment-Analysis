@@ -14,7 +14,7 @@ Includes text preprocessing, feature extraction, model training, evaluation, and
   Extracted and loaded into Pandas dataframe.  
   
 
-3. **Data Preprocessing**
+2. **Data Preprocessing**
  
    Converted labels (positive/negative → 1/0).
 
@@ -25,12 +25,12 @@ Includes text preprocessing, feature extraction, model training, evaluation, and
    Created a clean text column for analysis.
    
 
-5. **Feature Engineering**
+3. **Feature Engineering**
    
     Used **CountVectorizer** with unigrams and bigrams (max 5000 features).
    
 
-7. **Model Training**
+4. **Model Training**
    
    Split data (80% training, 20% testing).
   
@@ -38,7 +38,7 @@ Includes text preprocessing, feature extraction, model training, evaluation, and
    Trained **Logistic Regression** classifier.
      
 
-9. **Evaluation**
+5. **Evaluation**
     
     Accuracy score.
 
@@ -49,7 +49,7 @@ Includes text preprocessing, feature extraction, model training, evaluation, and
     Confusion matrix visualization.
    
 
-11. **Predictions**
+6. **Predictions**
 
     Function to predict sentiment of new reviews.
 
@@ -104,4 +104,4 @@ Upload `IMDB Dataset.csv.zip` in Google Colab.
 Try the prediction function with your own movie reviews.  
 
 
-*This project is designed for beginners learning NLP and sentiment analysis with Python.*
+
